@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CryptoMobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CryptoMobileAppTests.m */; };
+		0BD3CED5E419FD232D2E106D /* libPods-CryptoMobileApp-CryptoMobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EA23D59D2F6E44F2F12842 /* libPods-CryptoMobileApp-CryptoMobileAppTests.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F5CB8B162630B0D000A65E72 /* tr-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF02630B0D000A65E72 /* tr-tv-chart.2f0c4150.html */; };
+		F5CB8B172630B0D000A65E72 /* cs-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF12630B0D000A65E72 /* cs-tv-chart.2f0c4150.html */; };
+		F5CB8B182630B0D000A65E72 /* charting_library.standalone.js in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF22630B0D000A65E72 /* charting_library.standalone.js */; };
+		F5CB8B192630B0D000A65E72 /* ja-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF32630B0D000A65E72 /* ja-tv-chart.2f0c4150.html */; };
+		F5CB8B1A2630B0D000A65E72 /* el-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF42630B0D000A65E72 /* el-tv-chart.2f0c4150.html */; };
+		F5CB8B1B2630B0D000A65E72 /* charting_library.js in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF52630B0D000A65E72 /* charting_library.js */; };
+		F5CB8B1C2630B0D000A65E72 /* de-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF62630B0D000A65E72 /* de-tv-chart.2f0c4150.html */; };
+		F5CB8B1D2630B0D000A65E72 /* da_DK-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF72630B0D000A65E72 /* da_DK-tv-chart.2f0c4150.html */; };
+		F5CB8B1E2630B0D000A65E72 /* en-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF82630B0D000A65E72 /* en-tv-chart.2f0c4150.html */; };
+		F5CB8B1F2630B0D000A65E72 /* ko-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AF92630B0D000A65E72 /* ko-tv-chart.2f0c4150.html */; };
+		F5CB8B202630B0D000A65E72 /* datafeed-api.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AFA2630B0D000A65E72 /* datafeed-api.d.ts */; };
+		F5CB8B212630B0D000A65E72 /* charting_library.cjs.js in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AFB2630B0D000A65E72 /* charting_library.cjs.js */; };
+		F5CB8B222630B0D000A65E72 /* et_EE-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AFC2630B0D000A65E72 /* et_EE-tv-chart.2f0c4150.html */; };
+		F5CB8B232630B0D000A65E72 /* hu_HU-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AFD2630B0D000A65E72 /* hu_HU-tv-chart.2f0c4150.html */; };
+		F5CB8B242630B0D000A65E72 /* charting_library.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AFE2630B0D000A65E72 /* charting_library.d.ts */; };
+		F5CB8B252630B0D000A65E72 /* es-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8AFF2630B0D000A65E72 /* es-tv-chart.2f0c4150.html */; };
+		F5CB8B262630B0D000A65E72 /* charting_library.esm.js in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B002630B0D000A65E72 /* charting_library.esm.js */; };
+		F5CB8B272630B0D000A65E72 /* it-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B012630B0D000A65E72 /* it-tv-chart.2f0c4150.html */; };
+		F5CB8B282630B0D000A65E72 /* ms_MY-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B022630B0D000A65E72 /* ms_MY-tv-chart.2f0c4150.html */; };
+		F5CB8B292630B0D000A65E72 /* nl_NL-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B032630B0D000A65E72 /* nl_NL-tv-chart.2f0c4150.html */; };
+		F5CB8B2A2630B0D000A65E72 /* no-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B042630B0D000A65E72 /* no-tv-chart.2f0c4150.html */; };
+		F5CB8B2B2630B0D000A65E72 /* pl-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B052630B0D000A65E72 /* pl-tv-chart.2f0c4150.html */; };
+		F5CB8B2C2630B0D000A65E72 /* sv-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B062630B0D000A65E72 /* sv-tv-chart.2f0c4150.html */; };
+		F5CB8B2D2630B0D000A65E72 /* th-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B072630B0D000A65E72 /* th-tv-chart.2f0c4150.html */; };
+		F5CB8B2E2630B0D000A65E72 /* vi-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B082630B0D000A65E72 /* vi-tv-chart.2f0c4150.html */; };
+		F5CB8B2F2630B0D000A65E72 /* zh-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B092630B0D000A65E72 /* zh-tv-chart.2f0c4150.html */; };
+		F5CB8B302630B0D000A65E72 /* ar-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B0A2630B0D000A65E72 /* ar-tv-chart.2f0c4150.html */; };
+		F5CB8B312630B0D000A65E72 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B0B2630B0D000A65E72 /* package.json */; };
+		F5CB8B322630B0D000A65E72 /* ru-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B0C2630B0D000A65E72 /* ru-tv-chart.2f0c4150.html */; };
+		F5CB8B332630B0D000A65E72 /* pt-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B0D2630B0D000A65E72 /* pt-tv-chart.2f0c4150.html */; };
+		F5CB8B342630B0D000A65E72 /* fa-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B0E2630B0D000A65E72 /* fa-tv-chart.2f0c4150.html */; };
+		F5CB8B352630B0D000A65E72 /* sk_SK-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B0F2630B0D000A65E72 /* sk_SK-tv-chart.2f0c4150.html */; };
+		F5CB8B362630B0D000A65E72 /* zh_TW-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B102630B0D000A65E72 /* zh_TW-tv-chart.2f0c4150.html */; };
+		F5CB8B372630B0D000A65E72 /* fr-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B112630B0D000A65E72 /* fr-tv-chart.2f0c4150.html */; };
+		F5CB8B382630B0D000A65E72 /* bundles in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B122630B0D000A65E72 /* bundles */; };
+		F5CB8B392630B0D000A65E72 /* he_IL-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B132630B0D000A65E72 /* he_IL-tv-chart.2f0c4150.html */; };
+		F5CB8B3A2630B0D000A65E72 /* id_ID-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B142630B0D000A65E72 /* id_ID-tv-chart.2f0c4150.html */; };
+		F5CB8B3B2630B0D000A65E72 /* ro-tv-chart.2f0c4150.html in Resources */ = {isa = PBXBuildFile; fileRef = F5CB8B152630B0D000A65E72 /* ro-tv-chart.2f0c4150.html */; };
+		FF0B88531F34BCF13212ABB0 /* libPods-CryptoMobileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFBA7E6458247D8D83F69FE /* libPods-CryptoMobileApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = CryptoMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* CryptoMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CryptoMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoMobileAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CryptoMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CryptoMobileApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CryptoMobileApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CryptoMobileApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CryptoMobileApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CryptoMobileApp/main.m; sourceTree = "<group>"; };
+		20EA23D59D2F6E44F2F12842 /* libPods-CryptoMobileApp-CryptoMobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoMobileApp-CryptoMobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D5FA67CBD03EEBE7931854 /* Pods-CryptoMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		71D961CA54F11A761CF3A94B /* Pods-CryptoMobileApp-CryptoMobileAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMobileApp-CryptoMobileAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CryptoMobileApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F9F98197EEFD184BB93AF74 /* Pods-CryptoMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMobileApp.release.xcconfig"; path = "Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		E525012A19372C073E8743B6 /* Pods-CryptoMobileApp-CryptoMobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMobileApp-CryptoMobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECFBA7E6458247D8D83F69FE /* libPods-CryptoMobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoMobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F5CB8AF02630B0D000A65E72 /* tr-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "tr-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/tr-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AF12630B0D000A65E72 /* cs-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "cs-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/cs-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AF22630B0D000A65E72 /* charting_library.standalone.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = charting_library.standalone.js; path = "../../../challenge2/charting_library-master/charting_library/charting_library.standalone.js"; sourceTree = "<group>"; };
+		F5CB8AF32630B0D000A65E72 /* ja-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "ja-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/ja-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AF42630B0D000A65E72 /* el-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "el-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/el-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AF52630B0D000A65E72 /* charting_library.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = charting_library.js; path = "../../../challenge2/charting_library-master/charting_library/charting_library.js"; sourceTree = "<group>"; };
+		F5CB8AF62630B0D000A65E72 /* de-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "de-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/de-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AF72630B0D000A65E72 /* da_DK-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "da_DK-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/da_DK-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AF82630B0D000A65E72 /* en-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "en-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/en-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AF92630B0D000A65E72 /* ko-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "ko-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/ko-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AFA2630B0D000A65E72 /* datafeed-api.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "datafeed-api.d.ts"; path = "../../../challenge2/charting_library-master/charting_library/datafeed-api.d.ts"; sourceTree = "<group>"; };
+		F5CB8AFB2630B0D000A65E72 /* charting_library.cjs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = charting_library.cjs.js; path = "../../../challenge2/charting_library-master/charting_library/charting_library.cjs.js"; sourceTree = "<group>"; };
+		F5CB8AFC2630B0D000A65E72 /* et_EE-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "et_EE-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/et_EE-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AFD2630B0D000A65E72 /* hu_HU-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "hu_HU-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/hu_HU-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8AFE2630B0D000A65E72 /* charting_library.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = charting_library.d.ts; path = "../../../challenge2/charting_library-master/charting_library/charting_library.d.ts"; sourceTree = "<group>"; };
+		F5CB8AFF2630B0D000A65E72 /* es-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "es-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/es-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B002630B0D000A65E72 /* charting_library.esm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = charting_library.esm.js; path = "../../../challenge2/charting_library-master/charting_library/charting_library.esm.js"; sourceTree = "<group>"; };
+		F5CB8B012630B0D000A65E72 /* it-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "it-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/it-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B022630B0D000A65E72 /* ms_MY-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "ms_MY-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/ms_MY-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B032630B0D000A65E72 /* nl_NL-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "nl_NL-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/nl_NL-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B042630B0D000A65E72 /* no-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "no-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/no-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B052630B0D000A65E72 /* pl-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "pl-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/pl-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B062630B0D000A65E72 /* sv-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "sv-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/sv-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B072630B0D000A65E72 /* th-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "th-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/th-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B082630B0D000A65E72 /* vi-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "vi-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/vi-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B092630B0D000A65E72 /* zh-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "zh-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/zh-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B0A2630B0D000A65E72 /* ar-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "ar-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/ar-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B0B2630B0D000A65E72 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = package.json; path = "../../../challenge2/charting_library-master/charting_library/package.json"; sourceTree = "<group>"; };
+		F5CB8B0C2630B0D000A65E72 /* ru-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "ru-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/ru-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B0D2630B0D000A65E72 /* pt-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "pt-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/pt-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B0E2630B0D000A65E72 /* fa-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "fa-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/fa-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B0F2630B0D000A65E72 /* sk_SK-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "sk_SK-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/sk_SK-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B102630B0D000A65E72 /* zh_TW-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "zh_TW-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/zh_TW-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B112630B0D000A65E72 /* fr-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "fr-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/fr-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B122630B0D000A65E72 /* bundles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = bundles; path = "../../../challenge2/charting_library-master/charting_library/bundles"; sourceTree = "<group>"; };
+		F5CB8B132630B0D000A65E72 /* he_IL-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "he_IL-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/he_IL-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B142630B0D000A65E72 /* id_ID-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "id_ID-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/id_ID-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+		F5CB8B152630B0D000A65E72 /* ro-tv-chart.2f0c4150.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "ro-tv-chart.2f0c4150.html"; path = "../../../challenge2/charting_library-master/charting_library/ro-tv-chart.2f0c4150.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD3CED5E419FD232D2E106D /* libPods-CryptoMobileApp-CryptoMobileAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0B88531F34BCF13212ABB0 /* libPods-CryptoMobileApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CryptoMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CryptoMobileAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CryptoMobileAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CryptoMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = CryptoMobileApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ECFBA7E6458247D8D83F69FE /* libPods-CryptoMobileApp.a */,
+				20EA23D59D2F6E44F2F12842 /* libPods-CryptoMobileApp-CryptoMobileAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		504E8AB36D3566F09976A6CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D5FA67CBD03EEBE7931854 /* Pods-CryptoMobileApp.debug.xcconfig */,
+				9F9F98197EEFD184BB93AF74 /* Pods-CryptoMobileApp.release.xcconfig */,
+				71D961CA54F11A761CF3A94B /* Pods-CryptoMobileApp-CryptoMobileAppTests.debug.xcconfig */,
+				E525012A19372C073E8743B6 /* Pods-CryptoMobileApp-CryptoMobileAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				F5CB8B0A2630B0D000A65E72 /* ar-tv-chart.2f0c4150.html */,
+				F5CB8B122630B0D000A65E72 /* bundles */,
+				F5CB8AFB2630B0D000A65E72 /* charting_library.cjs.js */,
+				F5CB8AFE2630B0D000A65E72 /* charting_library.d.ts */,
+				F5CB8B002630B0D000A65E72 /* charting_library.esm.js */,
+				F5CB8AF52630B0D000A65E72 /* charting_library.js */,
+				F5CB8AF22630B0D000A65E72 /* charting_library.standalone.js */,
+				F5CB8AF12630B0D000A65E72 /* cs-tv-chart.2f0c4150.html */,
+				F5CB8AF72630B0D000A65E72 /* da_DK-tv-chart.2f0c4150.html */,
+				F5CB8AFA2630B0D000A65E72 /* datafeed-api.d.ts */,
+				F5CB8AF62630B0D000A65E72 /* de-tv-chart.2f0c4150.html */,
+				F5CB8AF42630B0D000A65E72 /* el-tv-chart.2f0c4150.html */,
+				F5CB8AF82630B0D000A65E72 /* en-tv-chart.2f0c4150.html */,
+				F5CB8AFF2630B0D000A65E72 /* es-tv-chart.2f0c4150.html */,
+				F5CB8AFC2630B0D000A65E72 /* et_EE-tv-chart.2f0c4150.html */,
+				F5CB8B0E2630B0D000A65E72 /* fa-tv-chart.2f0c4150.html */,
+				F5CB8B112630B0D000A65E72 /* fr-tv-chart.2f0c4150.html */,
+				F5CB8B132630B0D000A65E72 /* he_IL-tv-chart.2f0c4150.html */,
+				F5CB8AFD2630B0D000A65E72 /* hu_HU-tv-chart.2f0c4150.html */,
+				F5CB8B142630B0D000A65E72 /* id_ID-tv-chart.2f0c4150.html */,
+				F5CB8B012630B0D000A65E72 /* it-tv-chart.2f0c4150.html */,
+				F5CB8AF32630B0D000A65E72 /* ja-tv-chart.2f0c4150.html */,
+				F5CB8AF92630B0D000A65E72 /* ko-tv-chart.2f0c4150.html */,
+				F5CB8B022630B0D000A65E72 /* ms_MY-tv-chart.2f0c4150.html */,
+				F5CB8B032630B0D000A65E72 /* nl_NL-tv-chart.2f0c4150.html */,
+				F5CB8B042630B0D000A65E72 /* no-tv-chart.2f0c4150.html */,
+				F5CB8B0B2630B0D000A65E72 /* package.json */,
+				F5CB8B052630B0D000A65E72 /* pl-tv-chart.2f0c4150.html */,
+				F5CB8B0D2630B0D000A65E72 /* pt-tv-chart.2f0c4150.html */,
+				F5CB8B152630B0D000A65E72 /* ro-tv-chart.2f0c4150.html */,
+				F5CB8B0C2630B0D000A65E72 /* ru-tv-chart.2f0c4150.html */,
+				F5CB8B0F2630B0D000A65E72 /* sk_SK-tv-chart.2f0c4150.html */,
+				F5CB8B062630B0D000A65E72 /* sv-tv-chart.2f0c4150.html */,
+				F5CB8B072630B0D000A65E72 /* th-tv-chart.2f0c4150.html */,
+				F5CB8AF02630B0D000A65E72 /* tr-tv-chart.2f0c4150.html */,
+				F5CB8B082630B0D000A65E72 /* vi-tv-chart.2f0c4150.html */,
+				F5CB8B102630B0D000A65E72 /* zh_TW-tv-chart.2f0c4150.html */,
+				F5CB8B092630B0D000A65E72 /* zh-tv-chart.2f0c4150.html */,
+				13B07FAE1A68108700A75B9A /* CryptoMobileApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CryptoMobileAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				504E8AB36D3566F09976A6CB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* CryptoMobileApp.app */,
+				00E356EE1AD99517003FC87E /* CryptoMobileAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CryptoMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CryptoMobileAppTests" */;
+			buildPhases = (
+				49AF3858AE16C210B2E63634 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				EE867D7296E61464DAFBDE0B /* [CP] Embed Pods Frameworks */,
+				544DBD14C579F1D34538D1F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CryptoMobileAppTests;
+			productName = CryptoMobileAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* CryptoMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* CryptoMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CryptoMobileApp" */;
+			buildPhases = (
+				BB66C01700ED01FCD1B86787 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A02898B1A606E3EE605C8314 /* [CP] Embed Pods Frameworks */,
+				749708A2A6B4B319002D5CD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoMobileApp;
+			productName = CryptoMobileApp;
+			productReference = 13B07F961A680F5B00A75B9A /* CryptoMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CryptoMobileApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* CryptoMobileApp */,
+				00E356ED1AD99517003FC87E /* CryptoMobileAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CB8B182630B0D000A65E72 /* charting_library.standalone.js in Resources */,
+				F5CB8B372630B0D000A65E72 /* fr-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B232630B0D000A65E72 /* hu_HU-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B242630B0D000A65E72 /* charting_library.d.ts in Resources */,
+				F5CB8B2F2630B0D000A65E72 /* zh-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B252630B0D000A65E72 /* es-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B2C2630B0D000A65E72 /* sv-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B2D2630B0D000A65E72 /* th-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B342630B0D000A65E72 /* fa-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B202630B0D000A65E72 /* datafeed-api.d.ts in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				F5CB8B272630B0D000A65E72 /* it-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B1B2630B0D000A65E72 /* charting_library.js in Resources */,
+				F5CB8B2A2630B0D000A65E72 /* no-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B1D2630B0D000A65E72 /* da_DK-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B222630B0D000A65E72 /* et_EE-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B312630B0D000A65E72 /* package.json in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F5CB8B212630B0D000A65E72 /* charting_library.cjs.js in Resources */,
+				F5CB8B382630B0D000A65E72 /* bundles in Resources */,
+				F5CB8B162630B0D000A65E72 /* tr-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B292630B0D000A65E72 /* nl_NL-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B322630B0D000A65E72 /* ru-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B262630B0D000A65E72 /* charting_library.esm.js in Resources */,
+				F5CB8B282630B0D000A65E72 /* ms_MY-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B2B2630B0D000A65E72 /* pl-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B1C2630B0D000A65E72 /* de-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B1A2630B0D000A65E72 /* el-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B332630B0D000A65E72 /* pt-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B352630B0D000A65E72 /* sk_SK-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B192630B0D000A65E72 /* ja-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B2E2630B0D000A65E72 /* vi-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B362630B0D000A65E72 /* zh_TW-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B1E2630B0D000A65E72 /* en-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B172630B0D000A65E72 /* cs-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B302630B0D000A65E72 /* ar-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B1F2630B0D000A65E72 /* ko-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B3A2630B0D000A65E72 /* id_ID-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B3B2630B0D000A65E72 /* ro-tv-chart.2f0c4150.html in Resources */,
+				F5CB8B392630B0D000A65E72 /* he_IL-tv-chart.2f0c4150.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		49AF3858AE16C210B2E63634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoMobileApp-CryptoMobileAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544DBD14C579F1D34538D1F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		749708A2A6B4B319002D5CD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02898B1A606E3EE605C8314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp/Pods-CryptoMobileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB66C01700ED01FCD1B86787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoMobileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE867D7296E61464DAFBDE0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoMobileApp-CryptoMobileAppTests/Pods-CryptoMobileApp-CryptoMobileAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CryptoMobileAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* CryptoMobileApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D961CA54F11A761CF3A94B /* Pods-CryptoMobileApp-CryptoMobileAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptoMobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoMobileApp.app/CryptoMobileApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E525012A19372C073E8743B6 /* Pods-CryptoMobileApp-CryptoMobileAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CryptoMobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoMobileApp.app/CryptoMobileApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D5FA67CBD03EEBE7931854 /* Pods-CryptoMobileApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CryptoMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CryptoMobileApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9F98197EEFD184BB93AF74 /* Pods-CryptoMobileApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CryptoMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CryptoMobileApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CryptoMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CryptoMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CryptoMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
